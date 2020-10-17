@@ -4,4 +4,8 @@
     <string name="use_touch">Use Touch ID</string>
     <string name="register">Register Now</string>
     <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="ft_login">Log in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
 </resources>

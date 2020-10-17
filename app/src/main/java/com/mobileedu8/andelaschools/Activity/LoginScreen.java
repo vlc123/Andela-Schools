@@ -21,6 +21,7 @@ public class LoginScreen extends AppCompatActivity {
         setContentView(R.layout.activity_login_screen);
         initID();
 
+        //sets an onclick listener for the buttons
         login.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {
