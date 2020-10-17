@@ -2,6 +2,6 @@
     <string name="app_name">Andela Schools</string>
     <string name="login_text">Now! Quick Login Use Touch ID</string>
     <string name="use_touch">Use Touch ID</string>
-    <string name="register">Register</string>
+    <string name="register">Register Now</string>
     <string name="login">Login</string>
 </resources>
