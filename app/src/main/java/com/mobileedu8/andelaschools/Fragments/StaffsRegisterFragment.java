@@ -16,6 +16,7 @@ import com.mobileedu8.andelaschools.R;
 public class StaffsRegisterFragment extends Fragment {
 
     private StaffsRegisterAdapter adapter;
+    private androidx.cardview.widget.CardView cardView;
 
     private StaffsRegisterFragment(){
         // Required empty public constructor
@@ -40,6 +41,8 @@ public class StaffsRegisterFragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_staffs_register, container, false);
         adapter = new StaffsRegisterAdapter();
+
+
 
         initId(v);
         return v;

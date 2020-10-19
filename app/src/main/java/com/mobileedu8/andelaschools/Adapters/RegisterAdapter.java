@@ -16,6 +16,8 @@ public class RegisterAdapter extends FragmentStatePagerAdapter {
     public RegisterAdapter(FragmentManager fm) {
         super(fm);
     }
+
+
     @Nullable
     @Override
     public CharSequence getPageTitle(int position){
@@ -27,9 +29,9 @@ public class RegisterAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int position){
         switch(position){
             case 0:
-                return StudentsRegisterFragrament.newInstance();
-            case 1:
                 return StaffsRegisterFragment.newInstance();
+            case 1:
+                return StudentsRegisterFragrament.newInstance();
         }
         return null;
     }
