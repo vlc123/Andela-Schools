@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gray_100"
     tools:context=".Fragments.StaffsRegisterFragment">
 
    <androidx.cardview.widget.CardView
        android:id="@+id/cardview1"
        android:layout_width="match_parent"
        android:background="@drawable/rounded_button"
-       android:layout_marginBottom="70dp"
        android:layout_height="match_parent"/>
 </RelativeLayout>
