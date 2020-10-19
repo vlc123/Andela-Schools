@@ -7,9 +7,5 @@
     android:background="@color/gray_100"
     tools:context=".Fragments.StaffsRegisterFragment">
 
-   <androidx.cardview.widget.CardView
-       android:id="@+id/cardview1"
-       android:layout_width="match_parent"
-       android:background="@drawable/rounded_button"
-       android:layout_height="match_parent"/>
+
 </RelativeLayout>
